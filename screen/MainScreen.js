@@ -8,7 +8,7 @@ const MainScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={"default"} />
-      <Text style={styles.pageTitle}>Todo App</Text>
+      <Text style={styles.pageTitle}>Todo App!</Text>
       <View style={styles.listView}>
         <Text style={styles.listTitle}>할 일</Text>
         <TodoItem />
